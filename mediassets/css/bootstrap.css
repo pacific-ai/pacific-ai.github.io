@@ -4910,7 +4910,7 @@ a.badge:hover {
 }
 
 .hero-unit {
-  padding: 0 0 0 0;
+  padding: 14% 0 0 0;
 
   width: 250px;
   -webkit-border-radius: 6px;

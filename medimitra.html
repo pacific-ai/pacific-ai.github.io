@@ -48,11 +48,9 @@
 <script type='text/javascript' src='mediassets/js/pusher.min.js'></script>
 
 
-
 </head>
 <body id='body' class='webgl_enabled'>
 
-	<!-- The frontpage -->
 	<div id='frontpage'>
 
 		<div id='content' class='container'>
@@ -61,25 +59,17 @@
 			</div>
 
 			<div class='dropzone'>
-				<span> </span>
+
                     <input id='filebutton' type='file'
-					multiple onchange='selectfiles(this.files)' style='display: none;'></input>
-                    <a class='btn btn-inverse btn-large' style='vertical-align: super; color: chartreuse;'
+					multiple onchange='selectfiles(this.files)' style='display: none;'><p></p></input>
+                    <a class='btn btn-inverse btn-large' style='vertical-align: super; color: rgb(243, 243, 243);'
 					onclick='javascript:document.getElementById("filebutton").click();'>Upload file</a>
                     <br/>
 				<span style='font-size: 12pt'> [.nrrd]</span><br/>
 				<br />
 			</div>
-
-			<div class='footer'>
-				<div class='row' style='margin: auto'>
-					<div class='span2 offset8'>
-						<ul class='unstyled paddingated'>
-							
-						</ul>
-					</div>
-				</div>
-			</div>
+		  </div>
+			
 		</div>
 		<!-- /container -->
 	</div>
